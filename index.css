@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Megrim&display=swap');
+
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS Rounded 1c";
+  user-select: none;
+}
+
+
+header {
+  color: #2E3440;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+header > img { 
+  border-radius: 100%;
+}
+
+#links{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+header > h1 {
+  display: inline-block;
+  background: rgba(216, 222, 233, 0.2);
+  border-radius: 20px;
+  padding: 4px;
+  border: 1px solid #2E3440;
+}
+
+#item{
+  background: rgba(216, 222, 233, 0.2);
+  backdrop-filter: blur(20px);
+  width: 40%;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 60px;
+  border-radius: 20px;
+  max-width: 600px;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+#vanta {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#item > img {
+  padding-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+#item-two{
+  background: rgba(216, 222, 233, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 10px;
+  width: 40%;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 60px;
+  border-radius: 20px;
+  max-width: 600px;
+  text-align: start;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#item-two > img{
+  padding-right: 40px;
+  height: 35px;
+  width: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #2E3440;
+}
+
+@media only screen and (max-width: 600px) {
+  #item{
+    width: 90%;
+  }
+  #item-two{
+    width: 90%;
+  }
+}
